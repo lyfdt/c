@@ -1,4 +1,4 @@
-/*这是自己写的扫雷游戏代码，存在一些bug，无法通过编译，望指正，谢谢！
+/*这是自己写的有错误运行不了，地下有ai修正版
 #include <stdio.h>
 int main() {
     int a, b;
@@ -28,7 +28,7 @@ int main() {
          {
             int dx,dy;
             dx=i+c[k],dy=j+d[k];
-            if((0<=dx || dx<a) && (0<=dy || dy<b) && (e[dx][dy]=='*'))
+            if((0<=dx || dx<a) && (0<=dy || dy<b) && (e[dx][dy]=='*'))//条件写错了不该这么写的
             {
             count+=1;
             }
